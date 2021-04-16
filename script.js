@@ -19,7 +19,7 @@ function compute()
 
     var year = new Date().getFullYear() + parseInt(years);
 
-    document.getElementById("result").innerHTML="<b>If</b> you deposit "+principal+",\<br\><b>at</b> an interest rate of "+rate+"%\<br\><b>You</b> will receive an amount of "+amount+",\<br\><b>in</b> the year "+year+"\<br\>"
+    document.getElementById("result").innerHTML="<b>If</b> you deposit <mark>"+principal+"</mark>,\<br\><b>at</b> an interest rate of <mark>"+rate+"</mark>%\<br\><b>You</b> will receive an amount of <mark>"+amount+"</mark>,\<br\><b>in</b> the year <mark>"+year+"</mark>\<br\>"
     
 }
 
